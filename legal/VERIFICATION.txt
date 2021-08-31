@@ -1,0 +1,7 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+Download appropriate version from https://github.com/KN4CK3R/KeePassBrowserImporter/releases
+
+Calculate checksum (eg. using Get-FileHash) and compare with checksum for KeePassBrowserImporter.plgx file included in this package.

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>keepass-browser-importer</id>
+    <version>1.0.9.0</version>
+    <title>KeePass Plugin Browser Importer</title>
+    <authors>Janis Estelmann</authors>
+    <owners>chocolatey-community</owners>
+    <licenseUrl>https://github.com/JanisEst/KeePassBrowserImporter/raw/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/KN4CK3R/KeePassBrowserImporter/releases</projectUrl>
+    <iconUrl>https://cdn.statically.io/gh/dtgm/chocolatey-packages/master/icons/keepass.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>
+___
+### [choco://keepass-browser-importer](choco://keepass-browser-importer)
+To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support ](https://chocolatey.org/packages/choco-protocol-support)
+___
+KeePassBrowserImporter is a plug-in for KeePass 2.x which lets you import credentials from various browsers.
+___
+**[PACKAGE NOTES](https://github.com/JanisEst/KeePassBrowserImporter/releases)**
+    </description>
+    <summary>Browser Importer for KeePass 2.x</summary>
+    <releaseNotes>https://github.com/JanisEst/KeePassBrowserImporter/releases</releaseNotes>
+    <copyright>2019 Janis Estelmann</copyright>
+    <tags>keepass plugin importer</tags>
+    <projectSourceUrl>https://github.com/JanisEst/KeePassBrowserImporter</projectSourceUrl>
+    <packageSourceUrl>https://github.com/kenscudero/keepass-kp-simple-database-backup</packageSourceUrl>
+    <docsUrl>https://github.com/JanisEst/KeePassBrowserImporter/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/JanisEst/KeePassBrowserImporter/issues</bugTrackerUrl>
+    <dependencies>
+      <dependency id="keepass" version="2.42" />
+    </dependencies>
+  </metadata>
+  <files>
+      <file src="legal\**" target="legal" />
+      <file src="tools\**" target="tools" />
+  </files>
+</package>
