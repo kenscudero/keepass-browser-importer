@@ -16,7 +16,7 @@ ___
 ### [choco://keepass-browser-importer](choco://keepass-browser-importer)
 To use choco:// protocol URLs, install [(unofficial) choco:// Protocol support ](https://chocolatey.org/packages/choco-protocol-support)
 ___
-KeePassBrowserImporter is a plug-in for KeePass 2.x which lets you import credentials from various browsers.
+KeePassBrowserImporter is a plug-in for [_KeePass 2.x_](http://www.KeePass.info) which lets you import credentials from various browsers.
 ___
 **[PACKAGE NOTES](https://github.com/JanisEst/KeePassBrowserImporter/releases)**
     </description>
